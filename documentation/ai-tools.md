@@ -85,6 +85,31 @@ Tool availability and free-tier limits may change. I will record the actual tool
 - Record which tools were actually used.
 - Do not report planned activities as completed work.
 
-## 8. Conclusion
+## 8. Actual Usage and Evidence Log
+
+This table records the actual use of AI tools during the capstone project. Entries will be updated as each activity is completed and verified.
+
+| Tool | Activity | Evidence to Save | Status |
+|---|---|---|---|
+| ChatGPT | Drafted and refined portfolio sections and prompt-library content | Prompts, drafts, and final content | Used; evidence to organize |
+| Google Gemini | Review and compare portfolio content | Prompt, generated response, and comparison | Pending |
+| Canva | Create or refine the portfolio banner | Design file or screenshot and final image | Usage to confirm |
+| Grammarly | Proofread portfolio text | Original text, suggestions, and corrected text | Pending |
+
+### Evaluation Method
+
+Each tool will be evaluated according to:
+
+1. Relevance to the assigned task.
+2. Quality and clarity of its output.
+3. Accuracy and need for human corrections.
+4. Ease of use.
+5. Limitations of the free tier.
+
+### Evidence and Honesty
+
+Only activities that have actually been performed will be marked complete. Screenshots, prompts, outputs, and corrections will be retained where appropriate. Free-tier availability and limitations will be checked when each tool is used.
+
+## 9. Conclusion
 
 Using multiple AI tools can support different stages of portfolio development. Their outputs must be reviewed, compared, and corrected before publication.
