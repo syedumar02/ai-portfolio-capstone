@@ -67,6 +67,23 @@ This document records the tools considered for the project. The usage and eviden
 **Evidence:** Screenshot of the Grammarly review showing the score and suggestion counts.
 
 **Limitation:** Grammarly's score is an automated writing assessment. It does not verify the accuracy of personal claims or technical skills.
+### Tool: Microsoft Copilot
+
+**Purpose:** To review the project description for clarity, completeness, and accuracy.
+
+**Task Performed:** Submitted the description of my AI Portfolio Website Content Creator project and asked Copilot to identify strengths, suggest improvements, and flag claims requiring verification.
+
+**Results:**
+1. Copilot identified clear project scope and transparent acknowledgement of AI usage as strengths.
+2. It recommended explaining the project's purpose more precisely, describing my personal contributions, and documenting the AI workflow.
+3. It suggested the alternative title "AI-Assisted Portfolio Website" because the current project description focuses on AI-assisted content improvement rather than an automated content-generation system.
+4. It identified claims that should be supported by evidence, including website implementation, GitHub Pages deployment, website sections, and AI tool usage.
+
+**Human Review:** The suggestions were reviewed for relevance. The project title and description should accurately represent the actual website and its functionality. No feature or result should be claimed without evidence.
+
+**Evidence:** Saved Copilot response containing the review, suggested description, and verification checklist.
+
+**Limitation:** Copilot's feedback is an AI-generated review, not independent verification that the project features work correctly.
 
 ## 3. Tool Comparison
 
