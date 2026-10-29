@@ -26,12 +26,12 @@ AI-generated text can contain inaccurate claims, generic wording, grammatical er
 
 | Test ID | Test | Expected Result | Actual Result |
 |---|---|---|---|
-| W01 | Open homepage | Homepage loads successfully | Pending |
-| W02 | Open case study | Case study page loads | Pending |
-| W03 | Test navigation links | Links lead to the correct sections | Pending |
-| W04 | Check CSS styling | Website displays the intended design | Pending |
-| W05 | Check mobile layout | Content remains readable on a small screen | Pending |
-| W06 | Check contact section | No unintended private information is exposed | Pending |
+| W01 | Open homepage | Homepage loads successfully | Passed — homepage opened successfully in the browser. |
+| W02 | Open case study | Case study page loads | Passed — case study page opened and displayed content. |
+| W03 | Test navigation links | Links lead to the correct sections | Partially tested — Contact GitHub link was confirmed working; other navigation links still need checking. |
+| W04 | Check CSS styling | Website displays the intended design | Passed for the visible banner and page sections; full styling review pending. |
+| W05 | Check mobile layout | Content remains readable on a small screen | Pending — mobile layout has not yet been verified. |
+| W06 | Check contact section | No unintended private information is exposed | Passed — the Contact section displays a GitHub profile link without exposing a phone number or home address. |
 
 ## 4. AI Hallucination Analysis
 
