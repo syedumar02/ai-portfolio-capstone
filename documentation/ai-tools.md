@@ -36,15 +36,19 @@ This document records the tools considered for the project. The usage and eviden
 
 **Usage status:** Record as completed only after the tool has actually been used and its output reviewed.
 
-### Tool 3: Canva AI
+### Tool 3: AI Image Generation
 
-**Planned purpose:** Explore AI-assisted design options for portfolio graphics and visual presentation.
+**Purpose:** Create a visual banner for the personal portfolio website.
 
-**Planned task:** Explore available design features and assess whether they can help create or improve a portfolio banner.
+**Task completed:** Generated a portfolio banner containing my name, educational details, technology interests, and the phrase “LEARN | BUILD | GROW.”
 
-**Evidence to retain:** The design prompt, screenshots or exported design, and notes about changes made.
+**Human review:** Checked that the banner displayed correctly on the website and that its content was relevant to the portfolio.
 
-**Usage status:** Record as completed only if Canva AI features are actually used. The portfolio banner should not be attributed to Canva if it was created with another tool.
+**Evidence:** The generated image, `portfolio-banner.png`, is stored in the project repository and displayed on the homepage.
+
+**Limitations:** AI-generated graphics may contain inaccurate text or visual inconsistencies. The resulting image should be checked before publication.
+
+**Usage status:** Used.
 
 ### Tool 4: Grammarly
 
