@@ -1,69 +1,55 @@
-# Before-and-After Content Analysis
+# Before-and-After Analysis
 
 **Student:** Syed Umar T  
 **Course:** B.Tech Information Technology — Second Year  
 **Project:** AI Portfolio Website Content Creator
 
-## 1. Objective
+## 1. Purpose
 
-The purpose of this comparison is to evaluate whether AI-assisted editing improves the clarity, grammar, structure, and professionalism of portfolio content without introducing unsupported claims.
+This analysis examines how AI-assisted editing can improve the clarity, organization, and readability of personal portfolio content while preserving factual accuracy.
 
-## 2. Example 1: Personal Introduction
+The example below uses an original draft and a revised version. The revision must be checked against the student's actual background before publication.
 
-### Before: Initial Draft
+## 2. Original Draft
 
-"I am a student learning coding and I like software and AI. I know HTML CSS and Python and want to improve my skills."
+> I am an IT student. I like coding and AI. I want to learn more things and make projects.
 
-### After: AI-Assisted Revision
+This draft communicates the basic interests but provides limited information about the student's education, current learning, and goals.
 
-"I am a second-year B.Tech Information Technology student interested in software development and artificial intelligence. My current technical skills include HTML, CSS, and Python, and I am continuing to develop my programming and problem-solving abilities."
+## 3. Revised Version
 
-### Analysis
+> I'm a second-year B.Tech Information Technology student interested in software development and artificial intelligence. I'm strengthening my programming skills and exploring how technology can help solve practical problems. My goal is to keep learning, build meaningful projects, and grow as a software developer.
 
-- **Clarity:** The revised version communicates the student's education and interests more clearly.
-- **Grammar:** Sentence structure and punctuation have improved.
-- **Professionalism:** The revised version uses language suitable for a student portfolio.
-- **Accuracy:** The revision retains the stated education, skills, and interests without inventing achievements.
+**Verification note:** Confirm that this revised version accurately reflects your current interests and goals before using it.
 
-## 3. Example 2: Project Description
+## 4. Comparison
 
-### Before: Initial Draft
-
-"This is my AI portfolio project. I made a website and used AI to help with content."
-
-### After: AI-Assisted Revision
-
-"My AI Portfolio Website Content Creator capstone explores how AI tools can support portfolio writing, content review, and verification. The website is built with HTML and CSS and published using GitHub Pages."
-
-### Analysis
-
-- **Clarity:** The revised description explains the project's purpose.
-- **Specificity:** It identifies the technologies used.
-- **Professionalism:** The language is more suitable for project documentation.
-- **Accuracy:** The description should be checked against the implemented website and tools actually used.
-
-## 4. Comparison Summary
-
-| Criterion | Before | After |
+| Criterion | Original draft | Revised version |
 |---|---|---|
-| Grammar | Informal wording and basic sentence structure | More polished sentence structure |
-| Clarity | General descriptions | More specific explanations |
-| Organization | Limited detail | Education, skills, and purpose are easier to identify |
-| Professional tone | Conversational | Suitable for a portfolio |
-| Factual accuracy | Requires review | Still requires human verification |
+| Clarity | General and brief | Explains interests and goals |
+| Organization | Few connected ideas | Information follows a clearer sequence |
+| Specificity | Identifies an IT student | Includes degree level and areas of interest |
+| Readability | Understandable but basic | More suitable for a personal portfolio |
+| Factual accuracy | Requires personal confirmation | Education and interests must be verified |
+| Unsupported claims | Few claims | Avoids claiming professional expertise or achievements |
 
-## 5. Limitations
+## 5. Human Review and Corrections
 
-AI-assisted writing does not automatically guarantee accuracy or originality. The revised text must be checked to ensure it accurately represents the student's real experience. Improvements in quality should not be presented as measured results unless a documented evaluation supports them.
+The revised version should be reviewed before publication.
 
-## 6. Future Improvements
+- Confirm the education details.
+- Ensure the interests reflect the student's actual interests.
+- Avoid adding skills, qualifications, achievements, or completed projects without evidence.
+- Edit any wording that sounds exaggerated or does not represent the student's voice.
 
-- Compare outputs from at least two AI tools.
-- Record the prompts used to generate the revisions.
-- Ask reviewers to evaluate clarity and readability.
-- Record which AI suggestions were accepted, changed, or rejected.
-- Include actual reviewer feedback when available.
+## 6. Evaluation of AI Assistance
+
+AI-assisted editing can help organize ideas and suggest clearer wording. However, polished writing does not guarantee factual accuracy.
+
+The final version should be selected based on its usefulness, accuracy, and suitability for the intended audience—not simply because it sounds more professional.
+
+**Evidence to add:** Preserve the actual prompt used, the AI-generated response, the final edited version, and a brief record of corrections. If the sample above is not the actual output of a tested prompt, label it as an illustrative example rather than a measured AI result.
 
 ## 7. Conclusion
 
-The examples illustrate how AI-assisted editing can make portfolio content clearer and more organized. Human review remains necessary to ensure accuracy, authenticity, and suitability for the intended audience.
+This comparison illustrates how a basic introduction can be developed into a more informative portfolio description. The final text remains subject to human review, and no improvement should be attributed to a specific AI tool without recording the actual prompt and output.
