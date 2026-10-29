@@ -30,15 +30,12 @@ The purpose of this report is to record actual test results, identify potential 
 
 | Test ID | Test | Expected Result | Actual Result |
 |---|---|---|---|
-| W01 | Open homepage | Homepage loads successfully | Passed — homepage opened successfully in the browser. |
+| W01 | Open homepage | Homepage loads successfully | Passed — homepage opened successfully. |
 | W02 | Open case study | Case study page loads | Passed — case study page opened and displayed content. |
-| W03 | Test navigation links | Links lead to the correct sections or pages | Partially tested — the case study link was confirmed visible and working. Other navigation links should be checked individually. |
-| W04 | Check CSS styling | Website displays the intended design | Passed for the visible banner and page sections; a complete styling review has not been documented. |
+| W03 | Test navigation links | Links lead to the correct sections or pages | Passed — Home, About, Projects, Contact, Read the Case Study, and GitHub profile links all worked during testing. |
+| W04 | Check CSS styling | Website displays the intended design | Passed for the visible banner and page sections. |
 | W05 | Check mobile layout | Content remains readable on a small screen | Passed — the student reported that the website worked correctly on mobile. |
 | W06 | Check contact section | No unintended private information is exposed | Passed — the Contact section displays a GitHub profile link without a phone number or home address. |
-
-**Mobile testing note:** The W05 result is based on the student's reported test. A screenshot of the website on a mobile screen can be retained as supporting evidence.
-
 ## 4. AI Hallucination Analysis
 
 An AI hallucination occurs when an AI system generates unsupported, misleading, or incorrect information.
