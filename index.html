@@ -1,573 +1,532 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Syed Umar T — B.Tech Information Technology student exploring web development, artificial intelligence, and creative technology projects.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Syed Umar T's personal portfolio showcasing skills, projects, goals, and AI-assisted web development.">
+  <title>Syed Umar T | Portfolio</title>
 
-    <title>Syed Umar T | Developer Portfolio</title>
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<header class="header">
+  <!-- Navigation -->
+  <header class="header">
     <nav class="navbar container">
-        <a href="#home" class="logo">
-            <span class="logo-icon">SU</span>
-            <span>Syed Umar T</span>
-        </a>
+      <a href="#home" class="logo">Umar<span>.</span></a>
 
-        <button class="menu-toggle" id="menu-toggle"
-                aria-label="Toggle navigation" aria-expanded="false">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
 
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="case-study.html" class="nav-link">Case Study</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-
-        <a class="github-top" href="https://github.com/syedumar02"
-           target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
-            <i class="fa-brands fa-github"></i>
-        </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#case-study">Case Study</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<main>
+  <main>
 
-    <!-- HERO -->
+    <!-- Hero -->
     <section class="hero section" id="home">
-        <div class="hero-glow glow-one"></div>
-        <div class="hero-glow glow-two"></div>
+      <div class="container hero-content">
 
-        <div class="container hero-grid">
-            <div class="hero-content">
-                <p class="eyebrow">
-                    <span class="status-dot"></span>
-                    HELLO, WELCOME TO MY PORTFOLIO
-                </p>
+        <div class="hero-text">
+          <p class="eyebrow">B.Tech Information Technology · 2nd Year</p>
 
-                <h1>
-                    Hi, I'm<br>
-                    <span class="gradient-text">Syed Umar T</span>
-                </h1>
+          <h1>Hello, I'm <span>Syed Umar T</span></h1>
 
-                <h2>B.Tech Information Technology</h2>
+          <h2>Student · Developer · AI Explorer</h2>
 
-                <p class="hero-description">
-                    I'm an IT student interested in web development,
-                    artificial intelligence, and software development.
-                    I enjoy learning new technologies and turning ideas
-                    into practical projects.
-                </p>
+          <p class="hero-description">
+            I enjoy learning new technologies, building web projects, and
+            exploring how artificial intelligence can support creative
+            problem-solving.
+          </p>
 
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        Explore My Projects
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
 
-                    <a href="#contact" class="btn btn-outline">
-                        Contact Me
-                        <i class="fa-regular fa-envelope"></i>
-                    </a>
-                </div>
-
-                <div class="social-links">
-                    <a href="https://github.com/syedumar02"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="GitHub">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-
-                    <a href="mailto:syedumar2056@gmail.com" aria-label="Email">
-                        <i class="fa-regular fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="hero-visual">
-                <div class="orbit orbit-one"></div>
-                <div class="orbit orbit-two"></div>
-
-                <div class="profile-frame">
-                    <img src="portfolio-banner.png"
-                         alt="Syed Umar T portfolio banner"
-                         class="profile-image">
-                </div>
-
-                <div class="floating-card floating-card-top">
-                    <span class="floating-icon">
-                        <i class="fa-solid fa-code"></i>
-                    </span>
-                    <div>
-                        <strong>Build &amp; Learn</strong>
-                        <small>One project at a time</small>
-                    </div>
-                </div>
-
-                <div class="floating-card floating-card-bottom">
-                    <span class="floating-icon">
-                        <i class="fa-solid fa-brain"></i>
-                    </span>
-                    <div>
-                        <strong>AI Explorer</strong>
-                        <small>Learning through practice</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <a href="#about" class="scroll-indicator">
-            <span>Discover more</span>
-            <i class="fa-solid fa-arrow-down"></i>
-        </a>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section about-section" id="about">
-        <div class="container">
-            <div class="section-heading">
-                <span class="section-label">GET TO KNOW ME</span>
-                <h2>About <span class="gradient-text">Me</span></h2>
-                <p>A little about my interests, journey, and goals.</p>
-            </div>
-
-            <div class="about-grid">
-                <article class="glass-card about-card">
-                    <div class="card-icon">
-                        <i class="fa-solid fa-user-astronaut"></i>
-                    </div>
-
-                    <h3>Who I Am</h3>
-
-                    <p>
-                        I'm Syed Umar T, a second-year B.Tech Information
-                        Technology student. I'm interested in technology,
-                        web development, and artificial intelligence.
-                        My portfolio documents my skills, projects,
-                        learning goals, and progress as I gain experience.
-                    </p>
-
-                    <a href="case-study.html" class="text-link">
-                        Explore my capstone
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </article>
-
-                <div class="about-highlights">
-                    <article class="highlight-card">
-                        <div class="highlight-icon blue">
-                            <i class="fa-solid fa-laptop-code"></i>
-                        </div>
-                        <div>
-                            <h3>Web Development</h3>
-                            <p>HTML, CSS, and responsive layouts</p>
-                        </div>
-                    </article>
-
-                    <article class="highlight-card">
-                        <div class="highlight-icon purple">
-                            <i class="fa-solid fa-wand-magic-sparkles"></i>
-                        </div>
-                        <div>
-                            <h3>Artificial Intelligence</h3>
-                            <p>Exploring AI tools and practical uses</p>
-                        </div>
-                    </article>
-
-                    <article class="highlight-card">
-                        <div class="highlight-icon pink">
-                            <i class="fa-solid fa-lightbulb"></i>
-                        </div>
-                        <div>
-                            <h3>Problem Solving</h3>
-                            <p>Learning, experimenting, and improving</p>
-                        </div>
-                    </article>
-
-                    <article class="highlight-card">
-                        <div class="highlight-icon cyan">
-                            <i class="fa-solid fa-rocket"></i>
-                        </div>
-                        <div>
-                            <h3>Continuous Learning</h3>
-                            <p>Building skills through practical projects</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section skills-section" id="skills">
-        <div class="container">
-            <div class="section-heading">
-                <span class="section-label">WHAT I'M LEARNING</span>
-                <h2>Skills &amp; <span class="gradient-text">Tools</span></h2>
-                <p>Technologies and tools I'm exploring in my journey.</p>
-            </div>
-
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fa-brands fa-html5 skill-html"></i>
-                    <h3>HTML5</h3>
-                    <p>Web structure</p>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-brands fa-css3-alt skill-css"></i>
-                    <h3>CSS3</h3>
-                    <p>Web styling</p>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-brands fa-python skill-python"></i>
-                    <h3>Python</h3>
-                    <p>Programming</p>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-brands fa-github skill-github"></i>
-                    <h3>GitHub</h3>
-                    <p>Version control</p>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-solid fa-robot skill-ai"></i>
-                    <h3>AI Tools</h3>
-                    <p>AI-assisted workflows</p>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-solid fa-mobile-screen-button skill-responsive"></i>
-                    <h3>Responsive Design</h3>
-                    <p>Multi-device layouts</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="section projects-section" id="projects">
-        <div class="container">
-            <div class="section-heading">
-                <span class="section-label">WHAT I'M BUILDING</span>
-                <h2>Featured <span class="gradient-text">Projects</span></h2>
-                <p>A selection of my work and learning projects.</p>
-            </div>
-
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-art project-art-one">
-                        <i class="fa-solid fa-laptop-code"></i>
-                        <span class="project-number">01</span>
-                    </div>
-
-                    <div class="project-content">
-                        <span class="project-category">WEB DEVELOPMENT</span>
-                        <h3>Personal Portfolio Website</h3>
-                        <p>
-                            A personal website presenting my background,
-                            skills, projects, and learning journey.
-                        </p>
-
-                        <div class="tag-list">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>GitHub Pages</span>
-                        </div>
-
-                        <a href="#home" class="project-link">
-                            View Project
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-art project-art-two">
-                        <i class="fa-solid fa-file-lines"></i>
-                        <span class="project-number">02</span>
-                    </div>
-
-                    <div class="project-content">
-                        <span class="project-category">CAPSTONE PROJECT</span>
-                        <h3>AI Portfolio Case Study</h3>
-                        <p>
-                            Documentation of my project objectives,
-                            AI-assisted workflow, feedback, and
-                            improvement process.
-                        </p>
-
-                        <div class="tag-list">
-                            <span>Research</span>
-                            <span>AI Tools</span>
-                            <span>Documentation</span>
-                        </div>
-
-                        <a href="case-study.html" class="project-link">
-                            Read Case Study
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-art project-art-three">
-                        <i class="fa-solid fa-brain"></i>
-                        <span class="project-number">03</span>
-                    </div>
-
-                    <div class="project-content">
-                        <span class="project-category">AI EXPLORATION</span>
-                        <h3>AI Content Workflow</h3>
-                        <p>
-                            An exploration of using AI tools to draft,
-                            review, refine, and verify website content.
-                        </p>
-
-                        <div class="tag-list">
-                            <span>ChatGPT</span>
-                            <span>Gemini</span>
-                            <span>Copilot</span>
-                        </div>
-
-                        <a href="case-study.html" class="project-link">
-                            Explore Workflow
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- LEARNING GOALS -->
-    <section class="section goals-section" id="goals">
-        <div class="container">
-            <div class="goals-panel">
-                <div class="goals-content">
-                    <span class="section-label">THE ROAD AHEAD</span>
-
-                    <h2>
-                        Always learning.<br>
-                        <span class="gradient-text">Always building.</span>
-                    </h2>
-
-                    <p>
-                        My goal is to strengthen my programming skills,
-                        explore modern technologies, and turn what I learn
-                        into useful projects.
-                    </p>
-
-                    <ul class="goals-list">
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Improve programming fundamentals
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Build practical web projects
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Explore AI and machine learning
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Develop a stronger project portfolio
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="goals-visual">
-                    <div class="goal-orb">
-                        <i class="fa-solid fa-arrow-trend-up"></i>
-                    </div>
-
-                    <p class="goal-quote">
-                        "Small steps every day lead to big results."
-                    </p>
-
-                    <span class="goal-caption">MY LEARNING MINDSET</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CASE STUDY -->
-    <section class="section case-callout">
-        <div class="container">
-            <div class="case-callout-card">
-                <div>
-                    <span class="section-label">MY CAPSTONE JOURNEY</span>
-                    <h2>Behind the <span class="gradient-text">Project</span></h2>
-
-                    <p>
-                        Explore the objectives, tools, prompts, verification,
-                        reviewer feedback, and lessons from my AI-assisted
-                        portfolio project.
-                    </p>
-                </div>
-
-                <a href="case-study.html" class="btn btn-primary">
-                    Read My Case Study
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section contact-section" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <span class="section-label">LET'S CONNECT</span>
-                <h2>Get in <span class="gradient-text">Touch</span></h2>
-                <p>Have a project idea or want to connect? Send me an email.</p>
-            </div>
-
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Let's start a conversation.</h3>
-
-                    <p>
-                        I'm interested in learning, building projects,
-                        and connecting with people who enjoy technology.
-                    </p>
-
-                    <a href="mailto:syedumar2056@gmail.com" class="contact-item">
-                        <span class="contact-icon">
-                            <i class="fa-regular fa-envelope"></i>
-                        </span>
-                        <span>
-                            <small>Email</small>
-                            <strong>syedumar2056@gmail.com</strong>
-                        </span>
-                    </a>
-
-                    <a href="https://github.com/syedumar02"
-                       target="_blank" rel="noopener noreferrer"
-                       class="contact-item">
-                        <span class="contact-icon">
-                            <i class="fa-brands fa-github"></i>
-                        </span>
-                        <span>
-                            <small>GitHub</small>
-                            <strong>github.com/syedumar02</strong>
-                        </span>
-                    </a>
-                </div>
-
-                <form class="contact-form" id="contact-form">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name"
-                           placeholder="Enter your name" required>
-
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email"
-                           placeholder="Enter your email" required>
-
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="5"
-                              placeholder="Write your message..." required></textarea>
-
-                    <button type="submit" class="btn btn-primary form-button">
-                        Prepare Email
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
-
-                    <p class="form-note">
-                        This form opens your email application to send the message.
-                    </p>
-                </form>
-            </div>
-        </div>
-    </section>
-
-</main>
-
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="container footer-inner">
-        <a href="#home" class="logo footer-logo">
-            <span class="logo-icon">SU</span>
-            <span>Syed Umar T</span>
-        </a>
-
-        <p>
-            B.Tech Information Technology ·
-            <span id="footer-year">2026</span>
-        </p>
-
-        <div class="footer-socials">
+          <div class="social-links">
             <a href="https://github.com/syedumar02"
-               target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <i class="fa-brands fa-github"></i>
+               target="_blank" rel="noopener noreferrer"
+               aria-label="GitHub profile">
+              <i class="fab fa-github"></i>
             </a>
 
-            <a href="mailto:syedumar2056@gmail.com" aria-label="Email">
-                <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:syedumar2056@gmail.com"
+               aria-label="Email Umar">
+              <i class="fas fa-envelope"></i>
             </a>
+          </div>
         </div>
-    </div>
-</footer>
 
-<script>
+        <div class="hero-image">
+          <div class="profile-frame">
+            <img src="portfolio-banner.png"
+                 alt="Syed Umar T portfolio banner"
+                 class="profile-banner">
+          </div>
+          <div class="floating-badge">
+            <i class="fas fa-code"></i>
+            <span>Learning by Building</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Get to know me</p>
+          <h2>About <span>Me</span></h2>
+          <p>A little about my background, interests, and direction.</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-card">
+            <div class="card-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I'm Syed Umar T, a second-year B.Tech Information Technology
+              student. I'm building my knowledge in programming, web
+              development, and artificial intelligence through coursework
+              and practical projects.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>What Interests Me</h3>
+            <p>
+              I'm interested in creating useful digital experiences,
+              experimenting with AI tools, solving problems, and improving
+              my technical and communication skills.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>My Goal</h3>
+            <p>
+              My goal is to strengthen my programming fundamentals, build
+              meaningful projects, and learn how to use technology and AI
+              responsibly in real-world applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What I'm learning</p>
+          <h2>My <span>Skills</span></h2>
+          <p>Technologies and areas I'm developing through practice.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Structuring web pages</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>Styling and responsive layouts</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Interactive web experiences</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+            <p>Version control and publishing</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-robot"></i>
+            <h3>AI Tools</h3>
+            <p>Prompting, drafting, and review</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-search"></i>
+            <h3>Research</h3>
+            <p>Checking and improving information</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Things I've worked on</p>
+          <h2>My <span>Projects</span></h2>
+          <p>Selected work and learning projects.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+
+            <div class="project-content">
+              <p class="project-label">Capstone Project</p>
+              <h3>AI-Assisted Portfolio Website</h3>
+
+              <p>
+                A personal portfolio website built with HTML, CSS, and
+                JavaScript. AI tools supported content drafting, design
+                exploration, documentation, and review. The generated
+                content was checked and edited before publication.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>AI Tools</span>
+              </div>
+
+              <a href="https://github.com/syedumar02/ai-portfolio-capstone"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link">
+                View Source Code <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+
+            <div class="project-content">
+              <p class="project-label">Project Documentation</p>
+              <h3>AI Prompt Library & Verification</h3>
+
+              <p>
+                A collection of prompts and supporting documentation
+                describing AI-assisted content creation, output checking,
+                revisions, and responsible AI use during this capstone.
+              </p>
+
+              <div class="project-tags">
+                <span>Prompt Engineering</span>
+                <span>Testing</span>
+                <span>Documentation</span>
+              </div>
+
+              <a href="documentation/ai-tools.md"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link">
+                Explore Documentation <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals -->
+    <section class="section goals-section" id="goals">
+      <div class="container goals-content">
+        <div>
+          <p class="eyebrow">Looking ahead</p>
+          <h2>My Learning <span>Goals</span></h2>
+          <p>
+            I'm working towards becoming a capable developer by learning
+            consistently, practising with projects, and improving how I
+            solve problems.
+          </p>
+        </div>
+
+        <ul class="goals-list">
+          <li><i class="fas fa-check-circle"></i> Improve programming fundamentals</li>
+          <li><i class="fas fa-check-circle"></i> Build more practical web projects</li>
+          <li><i class="fas fa-check-circle"></i> Explore AI-assisted workflows</li>
+          <li><i class="fas fa-check-circle"></i> Learn responsible technology practices</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Case Study -->
+    <section class="section case-study-section" id="case-study">
+      <div class="container">
+        <div class="case-study-card">
+          <div class="case-study-text">
+            <p class="eyebrow">Behind the project</p>
+            <h2>Case Study: <span>Building My Portfolio</span></h2>
+
+            <p>
+              This case study documents how I planned and developed my
+              personal portfolio using web technologies and AI-assisted
+              workflows. It covers prompt design, reviewing AI outputs,
+              making corrections, and considering privacy and copyright.
+            </p>
+
+            <a href="case-study.html" class="btn btn-primary">
+              Read the Case Study
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="case-study-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Let's connect</p>
+          <h2>Contact <span>Me</span></h2>
+          <p>Have feedback or want to discuss my projects? Send me a message.</p>
+        </div>
+
+        <div class="contact-content">
+
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>
+              I welcome constructive feedback, project discussions, and
+              opportunities to learn from others.
+            </p>
+
+            <div class="contact-detail">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:syedumar2056@gmail.com">
+                  syedumar2056@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div>
+                <h4>GitHub</h4>
+                <a href="https://github.com/syedumar02"
+                   target="_blank" rel="noopener noreferrer">
+                  github.com/syedumar02
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                autocomplete="name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                autocomplete="email"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is your message about?"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              Prepare Email <i class="fas fa-paper-plane"></i>
+            </button>
+
+            <p class="form-note">
+              Gmail will open with your message prepared. Review it and
+              click Send in Gmail to send it.
+            </p>
+
+            <p class="form-status" id="form-status" role="status"
+               aria-live="polite"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">Umar<span>.</span></a>
+
+      <p>
+        Designed and developed by Syed Umar T.
+      </p>
+
+      <div class="footer-links">
+        <a href="https://github.com/syedumar02"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="GitHub profile">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="mailto:syedumar2056@gmail.com"
+           aria-label="Email Umar">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        &copy; <span id="current-year"></span> Syed Umar T. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile navigation
     const menuToggle = document.getElementById("menu-toggle");
     const navLinks = document.getElementById("nav-links");
 
     menuToggle.addEventListener("click", function () {
-        const isOpen = navLinks.classList.toggle("show");
+      const isOpen = navLinks.classList.toggle("active");
 
-        menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
 
-        menuToggle.innerHTML = isOpen
-            ? '<i class="fa-solid fa-xmark"></i>'
-            : '<i class="fa-solid fa-bars"></i>';
+      menuToggle.innerHTML = isOpen
+        ? '<i class="fas fa-times"></i>'
+        : '<i class="fas fa-bars"></i>';
     });
 
-    document.querySelectorAll(".nav-link").forEach(function (link) {
-        link.addEventListener("click", function () {
-            navLinks.classList.remove("show");
-            menuToggle.setAttribute("aria-expanded", "false");
-            menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
-        });
+    // Close the mobile menu when a navigation link is clicked
+    document.querySelectorAll("#nav-links a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+      });
     });
 
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
-        event.preventDefault();
+    // Update the copyright year automatically
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
 
-        const name = document.getElementById("name").value.trim();
-        const email = document.getElementById("email").value.trim();
-        const message = document.getElementById("message").value.trim();
+    // Contact form: open Gmail with recipient, subject, and message filled in
+    const contactForm = document.getElementById("contact-form");
+    const formStatus = document.getElementById("form-status");
 
-        const subject = encodeURIComponent("Portfolio Contact from " + name);
+    contactForm.addEventListener("submit", function (event) {
+      event.preventDefault();
 
-        const body = encodeURIComponent(
-            "Name: " + name +
-            "\nEmail: " + email +
-            "\n\nMessage:\n" + message
-        );
+      const name = document.getElementById("name").value.trim();
+      const senderEmail = document.getElementById("email").value.trim();
+      const subjectInput = document.getElementById("subject").value.trim();
+      const messageInput = document.getElementById("message").value.trim();
 
-        window.location.href =
-            "mailto:syedumar2056@gmail.com?subject=" + subject + "&body=" + body;
+      if (!name || !senderEmail || !subjectInput || !messageInput) {
+        formStatus.textContent = "Please fill in all fields before continuing.";
+        return;
+      }
+
+      const recipient = "syedumar2056@gmail.com";
+      const subject = subjectInput;
+
+      const body =
+        "Name: " + name + "\n" +
+        "Email: " + senderEmail + "\n\n" +
+        "Message:\n" + messageInput;
+
+      const gmailURL =
+        "https://mail.google.com/mail/?view=cm&fs=1" +
+        "&to=" + encodeURIComponent(recipient) +
+        "&su=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+
+      formStatus.textContent =
+        "Opening Gmail in a new tab. Please review your message and click Send.";
+
+      const gmailWindow = window.open(gmailURL, "_blank");
+
+      if (gmailWindow) {
+        gmailWindow.opener = null;
+      } else {
+        formStatus.textContent =
+          "Your browser blocked the new tab. Please allow pop-ups for this site and try again.";
+      }
     });
-
-    document.getElementById("footer-year").textContent =
-        new Date().getFullYear();
-</script>
+  </script>
 
 </body>
 </html>
-
+```
