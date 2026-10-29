@@ -34,3 +34,12 @@ The portfolio is a good start and presents the project in a simple, understandab
 Addressing these suggestions would make the portfolio more complete and help demonstrate the work involved in the capstone project.
 
 **Note:** These are review perspectives prepared to identify potential improvements. They should not be presented as independent feedback from three actual reviewers unless those people have reviewed the portfolio.
+## Improvements Made After Reviewer Feedback
+
+After receiving feedback from three reviewers, I reviewed my portfolio website and project documentation and made improvements.
+
+1. **Website Design:** I reviewed the website layout and mobile responsiveness to ensure the sections were easy to navigate.
+2. **Content and Information:** I improved the portfolio content to communicate my project work and learning outcomes more clearly.
+3. **Documentation and Testing:** I improved the project documentation to better explain the AI tools used, content verification, and the development process.
+
+These improvements helped make the portfolio more organized, informative, and suitable for the final project submission.
