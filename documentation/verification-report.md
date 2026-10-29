@@ -79,6 +79,29 @@ Evidence may include:
 - Reviewer feedback.
 - Reliable sources used to verify factual claims.
 
-## 8. Conclusion
+## 8. AI Content Verification Test Results
+
+### Test V07: AI-Assisted Portfolio Review
+
+**Objective:** Evaluate AI feedback on the clarity, organization, and factual accuracy of portfolio content.
+
+**Tool used:** Google Gemini
+
+**Input:** A draft describing my education, technical skills, and personal portfolio capstone project.
+
+**Observed result:** Gemini suggested clearer wording, a labeled technical-skills list, and better documentation of the capstone workflow. It also identified claims that should be supported by evidence.
+
+**Human review:** The suggestions were reviewed for accuracy and suitability. Wording should not imply additional qualifications, completed coursework, or experience that has not been confirmed.
+
+**Result:** Review completed; suggestions require human judgment before acceptance.
+
+**Evidence:** The actual Gemini response provided for this project review.
+
+### Limitations
+
+This test evaluates the usefulness of AI-generated feedback. It does not establish that every suggestion is correct or that the entire website has passed all functional tests.
+
+Other checks, including mobile responsiveness, navigation, accessibility, and content accuracy, should be recorded separately after testing.
+## 9. Conclusion
 
 Systematic verification helps ensure that the portfolio is accurate, clear, functional, and responsibly developed. Actual test outcomes and corrections will be recorded as testing is completed.
