@@ -124,3 +124,29 @@ AI-generated content may be generic, inaccurate, repetitive, or inconsistent wit
 ## 12. Conclusion
 
 This prompt library provides a repeatable method for developing and reviewing portfolio content. The prompts will be tested and refined during the project, and the testing log will document actual results.
+## Prompt Testing and Evaluation Log
+
+This log records the prompts tested during the AI Portfolio Website Content Creator project. Each entry should be completed using an actual prompt and its resulting output.
+
+| Test ID | Purpose | Prompt used | Result observed | Human correction | Status |
+|---|---|---|---|---|---|
+| P01 | About Me content | Draft an About Me section for a second-year B.Tech Information Technology student interested in software development and AI. Use only the supplied facts and do not invent achievements. | Record the actual output after testing. | Check the education, interests, skills, and claims for accuracy. | Used for drafting; evaluation pending |
+| P02 | Project description | Write a concise portfolio description for the AI Portfolio Website Content Creator capstone. Mention only work actually completed. | Record the actual output after testing. | Remove unsupported claims and distinguish completed work from planned work. | Pending evaluation |
+| P03 | Case study review | Review my case study for clarity, organization, unsupported claims, and missing evidence. List suggested corrections without inventing facts. | Record the actual output after testing. | Accept only appropriate and accurate suggestions. | Pending evaluation |
+| P04 | Verification | Identify factual claims in this portfolio text that require evidence. Do not guess whether a claim is true. | Record the actual output after testing. | Verify each claim against the website, source files, or project records. | Pending evaluation |
+
+### Evaluation Criteria
+
+Each tested prompt will be assessed for:
+
+1. **Accuracy:** Does the output reflect the facts supplied?
+2. **Relevance:** Does it meet the intended portfolio task?
+3. **Clarity:** Is the result understandable and well organized?
+4. **Unsupported claims:** Does it invent skills, achievements, or completed work?
+5. **Editing required:** What corrections were necessary before using the output?
+
+### Best Prompt Selection
+
+The best prompt will be selected after comparing actual outputs. Selection will be based on factual accuracy, relevance, clarity, and the amount of human correction required.
+
+No prompt will be described as tested or best-performing until its output has been reviewed.
