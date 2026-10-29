@@ -6,110 +6,98 @@
 
 ## 1. Introduction
 
-This document records the AI tools evaluated or used during the development of my portfolio website. Each tool has a specific purpose in the content creation, design, proofreading, or verification workflow.
+This project explores how artificial intelligence tools can assist in planning, writing, reviewing, and presenting the content of a personal portfolio website.
 
-Tool availability and free-tier limits may change. I will record the actual tools used and the results obtained during the project.
+AI tools can help generate ideas and improve writing. However, their output must be checked by a human to ensure accuracy, originality, suitability, and responsible use.
 
-## 2. Tool 1: ChatGPT
+This document records the tools considered for the project. The usage and evidence sections must reflect the work actually completed.
 
-**Purpose:** Generate and improve portfolio text.
+## 2. AI Tools
 
-**Planned tasks:**
-- Draft an About Me section.
-- Improve project descriptions.
-- Generate and refine prompts.
-- Identify claims that need verification.
+### Tool 1: ChatGPT
 
-**Evidence to collect:**
-- Original prompts.
-- AI-generated drafts.
-- Corrections made after review.
+**Purpose:** Planning the portfolio, drafting and refining website text, developing prompts, and preparing project documentation.
 
-## 3. Tool 2: Google Gemini
+**Tasks:** Drafting portfolio descriptions, improving wording, organizing the case study, and planning verification activities.
 
-**Purpose:** Obtain alternative writing suggestions and review content.
+**Human review:** Check that descriptions match my actual education, skills, projects, and completed activities. Remove unsupported claims.
 
-**Planned tasks:**
-- Generate an alternative portfolio introduction.
-- Suggest improvements to project descriptions.
-- Identify vague or unsupported statements.
+**Evidence to retain:** Prompts used, original drafts, revised text, and examples of corrections.
 
-**Evidence to collect:**
-- Prompts used.
-- Sample outputs.
-- Comparison with outputs from another AI tool.
+**Usage status:** Used during project development. Specific prompts and outputs should be recorded in the prompt library.
 
-## 4. Tool 3: Canva
+### Tool 2: Google Gemini
 
-**Purpose:** Create portfolio banner graphics.
+**Planned purpose:** Obtain an alternative review of portfolio wording, clarity, structure, and possible improvements.
 
-**Planned tasks:**
-- Design a banner for the portfolio.
-- Explore suitable layouts and typography.
-- Prepare a visual asset for the website.
+**Planned task:** Ask Gemini to review a draft and suggest improvements without inventing achievements or skills.
 
-**Evidence to collect:**
-- Original design or prompt.
-- Final banner image.
-- Notes about any AI-generated elements and applicable licensing conditions.
+**Evidence to retain:** The prompt, response, review notes, and any changes accepted or rejected.
 
-## 5. Tool 4: Grammarly
+**Usage status:** Record as completed only after the tool has actually been used and its output reviewed.
 
-**Purpose:** Review grammar and readability.
+### Tool 3: Canva AI
 
-**Planned tasks:**
-- Check grammar and spelling.
-- Improve sentence clarity.
-- Review the tone of portfolio content.
+**Planned purpose:** Explore AI-assisted design options for portfolio graphics and visual presentation.
 
-**Evidence to collect:**
-- Original text.
-- Suggested corrections.
-- Final edited text.
+**Planned task:** Explore available design features and assess whether they can help create or improve a portfolio banner.
 
-## 6. Comparison of Tools
+**Evidence to retain:** The design prompt, screenshots or exported design, and notes about changes made.
 
-| Tool | Main Purpose | Output to Evaluate |
+**Usage status:** Record as completed only if Canva AI features are actually used. The portfolio banner should not be attributed to Canva if it was created with another tool.
+
+### Tool 4: Grammarly
+
+**Planned purpose:** Review spelling, grammar, readability, and clarity in portfolio text.
+
+**Planned task:** Review a draft of the About Me section or case study and compare the suggestions with the original text.
+
+**Evidence to retain:** The original text, suggestions received, corrections accepted or rejected, and the revised version.
+
+**Usage status:** Record as completed only after an actual review has taken place.
+
+## 3. Tool Comparison
+
+| Tool | Intended use | Evidence required |
 |---|---|---|
-| ChatGPT | Drafting and prompt development | Clarity and relevance |
-| Google Gemini | Alternative drafts and review | Usefulness and differences |
-| Canva | Banner design | Visual quality and suitability |
-| Grammarly | Proofreading | Grammar and readability |
+| ChatGPT | Content drafting and prompt development | Prompts, drafts, revisions |
+| Google Gemini | Alternative review and suggestions | Prompt, response, review notes |
+| Canva AI | AI-assisted visual design | Design evidence and prompt |
+| Grammarly | Grammar and readability review | Suggestions and corrections |
 
-## 7. Responsible Use
+## 4. Actual Usage and Evidence Log
 
-- Review tool privacy policies before submitting personal information.
-- Do not submit passwords or sensitive information.
-- Verify factual claims independently.
-- Check licensing terms before publishing generated graphics.
-- Record which tools were actually used.
-- Do not report planned activities as completed work.
+Complete this table as each tool is used.
 
-## 8. Actual Usage and Evidence Log
-
-This table records the actual use of AI tools during the capstone project. Entries will be updated as each activity is completed and verified.
-
-| Tool | Activity | Evidence to Save | Status |
+| Tool | Task actually completed | Evidence saved | Result |
 |---|---|---|---|
-| ChatGPT | Drafted and refined portfolio sections and prompt-library content | Prompts, drafts, and final content | Used; evidence to organize |
-| Google Gemini | Review and compare portfolio content | Prompt, generated response, and comparison | Pending |
-| Canva | Create or refine the portfolio banner | Design file or screenshot and final image | Usage to confirm |
-| Grammarly | Proofread portfolio text | Original text, suggestions, and corrected text | Pending |
+| ChatGPT | Record the specific portfolio or documentation task completed | Add prompt and before/after example | Complete after evidence is recorded |
+| Google Gemini | Pending confirmation | Not yet recorded | Pending |
+| Canva AI | Pending confirmation | Not yet recorded | Pending |
+| Grammarly | Pending confirmation | Not yet recorded | Pending |
 
-### Evaluation Method
+Do not mark a task complete merely because a tool is listed in this document.
 
-Each tool will be evaluated according to:
+## 5. Responsible Use
 
-1. Relevance to the assigned task.
-2. Quality and clarity of its output.
-3. Accuracy and need for human corrections.
-4. Ease of use.
-5. Limitations of the free tier.
+The following principles guide the use of AI in this project:
 
-### Evidence and Honesty
+- Verify personal and technical information before publishing.
+- Do not invent skills, achievements, experience, or project results.
+- Review generated text and make appropriate human edits.
+- Avoid sharing passwords, private contact details, or other sensitive information.
+- Check image licensing and usage conditions before publishing visual assets.
+- Keep records of significant AI-generated content and corrections.
+- Disclose limitations and distinguish planned activities from completed activities.
 
-Only activities that have actually been performed will be marked complete. Screenshots, prompts, outputs, and corrections will be retained where appropriate. Free-tier availability and limitations will be checked when each tool is used.
+## 6. Limitations
 
-## 9. Conclusion
+AI-generated content may contain factual errors, generic descriptions, repetitive wording, or unsupported claims. AI tools may also provide different suggestions for the same prompt.
 
-Using multiple AI tools can support different stages of portfolio development. Their outputs must be reviewed, compared, and corrected before publication.
+For these reasons, AI output is treated as a draft rather than an authoritative source. Human review and testing remain necessary.
+
+## 7. Conclusion
+
+AI tools can support portfolio content creation, writing review, and visual planning. Their value in this project will be evaluated through documented prompts, actual outputs, human corrections, and verification results.
+
+The final report will identify which tools were actually used, what each contributed, and what limitations were observed.
