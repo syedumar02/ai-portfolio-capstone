@@ -67,16 +67,37 @@ This document records the tools considered for the project. The usage and eviden
 
 ## 4. Actual Usage and Evidence Log
 
-Complete this table as each tool is used.
-
-| Tool | Task actually completed | Evidence saved | Result |
+| Tool | Task completed | Evidence | Result |
 |---|---|---|---|
-| ChatGPT | Record the specific portfolio or documentation task completed | Add prompt and before/after example | Complete after evidence is recorded |
-| Google Gemini | Pending confirmation | Not yet recorded | Pending |
-| Canva AI | Pending confirmation | Not yet recorded | Pending |
-| Grammarly | Pending confirmation | Not yet recorded | Pending |
+| ChatGPT | Assisted with portfolio content, project documentation, prompt development, and revisions. | Conversation records and saved project documents. | Used; individual examples should be documented in the prompt library. |
+| Google Gemini | Reviewed portfolio wording for clarity, grammar, organization, and claims requiring evidence. | Gemini review response containing suggested revisions and recommendations. | Used; suggestions require human review before acceptance. |
+| Canva AI | AI-assisted visual design. | Evidence to be added if Canva AI is used. | Pending confirmation. |
+| Grammarly | Grammar and readability review. | Evidence to be added if Grammarly is used. | Pending confirmation. |
 
-Do not mark a task complete merely because a tool is listed in this document.
+### Google Gemini Review Findings
+
+Gemini reviewed a draft describing my education, technical skills, and capstone project.
+
+The main suggestions were:
+- Present technical skills in a clearly labeled list.
+- Use concise wording to explain the capstone project.
+- Support skill claims with examples of actual work.
+- Document the project workflow and AI-assisted revisions.
+
+### Human Review of Gemini Suggestions
+
+The feedback was reviewed rather than accepted automatically.
+
+- The suggested technical skills format can be used if it matches the portfolio layout.
+- Wording changes should preserve my actual educational status and experience.
+- I will not claim completed coursework, additional projects, or expertise unless these are accurate.
+- The portfolio website and its source code provide evidence of my HTML and CSS work. My Python skill level should be represented honestly.
+
+### Evidence Retention
+
+The Gemini response has been provided for this project review. A screenshot or saved copy should be retained in the project evidence folder if required for submission.
+
+The remaining tools will be marked as used only after their actual use is confirmed and documented.
 
 ## 5. Responsible Use
 
