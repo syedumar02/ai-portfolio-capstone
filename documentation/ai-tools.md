@@ -50,15 +50,23 @@ This document records the tools considered for the project. The usage and eviden
 
 **Usage status:** Used.
 
-### Tool 4: Grammarly
+### Tool: Grammarly
 
-**Planned purpose:** Review spelling, grammar, readability, and clarity in portfolio text.
+**Purpose:** To review the grammar, clarity, and readability of the About Me section on my portfolio website.
 
-**Planned task:** Review a draft of the About Me section or case study and compare the suggestions with the original text.
+**Content Tested:** The 69-word About Me section describing my education, technical skills, interests, and career goals.
 
-**Evidence to retain:** The original text, suggestions received, corrections accepted or rejected, and the revised version.
+**Results:**
+- Grammarly displayed an overall writing score of 91.
+- The grammar review showed no remaining grammar suggestions.
+- Grammarly identified two clarity suggestions for further review.
+- The text was reviewed, and the suggestions could be considered before making any changes.
 
-**Usage status:** Record as completed only after an actual review has taken place.
+**Human Review:** The original meaning and personal information were retained. Suggestions were to be evaluated carefully rather than accepted automatically.
+
+**Evidence:** Screenshot of the Grammarly review showing the score and suggestion counts.
+
+**Limitation:** Grammarly's score is an automated writing assessment. It does not verify the accuracy of personal claims or technical skills.
 
 ## 3. Tool Comparison
 
